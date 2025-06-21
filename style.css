@@ -79,6 +79,14 @@ nav ul li{
     transition: 0.3s;
 }
 
+.nav-links:hover{
+    padding: 0.7rem 1rem;
+    background-color: var(--light-gray);
+    border-radius: 24px;
+    transition: 0.3s;
+}
+
+
 /* cross sections styles */
 .header{
     font-weight: 500;
@@ -145,72 +153,6 @@ nav ul li{
 }
 
 
-
-/* projects */
-#projects{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-}
-
-.projects-div{
-    width: 100%;
-}
-
-.projects-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-    gap: 2rem;
-    margin-top: 3rem;
-    overflow-x: auto;
-    scrollbar-color: var(--light-gray) transparent;
-    scrollbar-width: thin;
-    padding-bottom: 1rem;
-}
-
-.projects-card{
-    display: flex;
-    flex-direction: column;
-    border-radius: 24px;
-    border-color: var(--purple);
-    background-color: var(--dark-gray);
-    padding: 1.5rem 2rem;
-    width: 20rem;
-    flex: 0 0 20rem;
-}
-
-.project-title{
-    margin: 1.5rem 0rem 0.5rem 0rem;
-    color: var(--orange);
-    font-weight: 500;
-}
-
-.project-desc{
-    margin: 0.5rem 0rem 2rem 0rem;
-}
-
-.project-image{
-    display: block;
-    margin: 0 auto;
-    width: 70%;
-    border-radius: 16px;
-}
-
-.project-button{
-    background-color: var(--purple);
-    color: var(--white);
-    border-radius: 12px;
-    margin-top: auto;
-    width: fit-content;
-    padding: 0.7rem 1rem;
-    text-decoration: none;
-}
-
-
 /* experiences */
 #experiences{
     display: flex;
@@ -242,6 +184,12 @@ nav ul li{
     transition: 0.3s;
 }
 
+.exp-filter button:hover{
+    background-color: var(--purple);
+    color: var(--white);
+    border-radius: 18px;
+    transition: 0.3s;
+}
 
 .exp-container{
     display: flex;
@@ -258,6 +206,11 @@ nav ul li{
     border-color: var(--purple);
     background-color: var(--dark-gray);
     width: calc((100% - 4rem) / 3);
+}
+
+.exp-card:hover{
+    box-shadow: 5px 5px 20px var(--purple);
+    transition: 0.3s;
 }
 
 .exp-image{
@@ -279,6 +232,11 @@ nav ul li{
     padding: 0.9rem 1rem;
     font-size: 1rem;
     text-decoration: none;
+}
+
+.exp-button:hover{
+    background-color: var(--orange);
+    transition: 0.3s;
 }
 
 #no-exp-msg{
@@ -361,6 +319,81 @@ nav ul li{
 }
 
 
+/* projects */
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.projects-div{
+    width: 100%;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 2rem;
+    margin-top: 3rem;
+    overflow-x: auto;
+    scrollbar-color: var(--light-gray) transparent;
+    scrollbar-width: thin;
+    padding-bottom: 1rem;
+}
+
+.projects-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    border-color: var(--purple);
+    background-color: var(--dark-gray);
+    padding: 1.5rem 2rem;
+    width: 20rem;
+    flex: 0 0 20rem;
+}
+
+.projects-card:hover{
+    box-shadow: 6px 6px 20px var(--purple);
+    transition: 0.3s;
+}
+
+.project-title{
+    margin: 1.5rem 0rem 0.5rem 0rem;
+    color: var(--orange);
+    font-weight: 500;
+}
+
+.project-desc{
+    margin: 0.5rem 0rem 2rem 0rem;
+}
+
+.project-image{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 16px;
+}
+
+.project-button{
+    background-color: var(--purple);
+    color: var(--white);
+    border-radius: 12px;
+    margin-top: auto;
+    width: fit-content;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+}
+
+.project-button:hover{
+    background-color: var(--orange);
+    transition: 0.3s;
+}
+
+
 /* achievements */
 #achievements{
     display: flex;
@@ -396,6 +429,12 @@ nav ul li{
     padding: 1.5rem 2rem;
     flex: 0 0 16rem;
 }
+
+.ach-card:hover{
+    box-shadow: 6px 6px 20px var(--purple);
+    transition: 0.3s;
+}
+
 
 /* footer */
 footer{
