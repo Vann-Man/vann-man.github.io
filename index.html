@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro" class="nav-links">Home</a></li>
+                <li><a href="#experiences" class="nav-links">Experiences</a></li>
+                <li><a href="#projects" class="nav-links">Projects</a></li>
+                <li><a href="#achievements" class="nav-links">Achievements</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="intro">
+        <div class="intro-div">
+            <div class="intro-container">
+                <h1 id="name">Pok Vann Xyn</h1>
+                <p id="roles">Student Programmer</p>
+                <p id="intro-text">Hello! I am Pok Vann Xyn, a Secondary 4 student from the School of Science and Technology, passionate in both software and hardware development.</p>
+                <div class="icons">
+                    <a href="mailto:pok_vann_xyn@s2022.ssts.edu.sg" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z"></path></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vann-xyn-pok/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"></path></svg>
+                    </a>
+                    <a href="https://github.com/Vann-Man" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg>
+                    </a>
+                </div>
+            </div>
+            <img src="./images/intro/vx.jpg" alt="vann-xyn" id="vx-pic">
+        </div>
+    </section>
+
+    <section id="experiences">
+        <div>
+            <h1 class="header">Experiences</h1>
+            <div class="exp-filter">
+                <button filter="all">All</button>
+                <button filter="leadership">Leadership</button>
+                <button filter="comps">Competitions</button>
+                <button filter="ole">OLEs</button>
+                <button filter="others">Others</button>
+            </div>
+            <div class="exp-container">
+                <div class="exp-card" filter="leadership">
+                    <img src="./images/experiences/leaderships/inc.png" alt="SST-Inc." class="exp-image">
+                    <div class="exp-content">
+                        <h2 class="project-title">SST Inc.</h2>
+                        <p class="project-desc">Technological start-up incubator & talent development unit in SST</p>
+                        <button class="exp-button" id="inc">See more ></button>
+                    </div>
+                </div>
+                <div class="exp-card" filter="leadership">
+                    <img src="./images/experiences/leaderships/oee_recce.png" alt="SnW-rep" class="exp-image">
+                    <div class="exp-content">
+                        <h2 class="project-title">House Committee</h2>
+                        <p class="project-desc">Sports & Wellness representative of Green House in Secondary 3</p>
+                        <button class="exp-button" id="snw-rep">See more ></button>
+                    </div>
+                </div>
+
+                <div class="exp-card" filter="comps">
+                    <img src="./images/experiences/comps/perse.jpg" alt="PCTC" class="exp-image">
+                    <div class="exp-content">
+                        <h2 class="project-title">Perse Coding Challenge</h2>
+                        <p class="project-desc">An international coding challenge held by The Perse School Cambridge</p>
+                        <button class="exp-button" id="pctc">See more ></button>
+                    </div>
+                </div>
+                <div class="exp-card" filter="comps">
+                    <img src="./images/experiences/comps/ybn.png" alt="YBN-CTF" class="exp-image">
+                    <div class="exp-content">
+                        <h2 class="project-title">YBN CTF</h2>
+                        <p class="project-desc">An inaugural cybersecurity related capture-the-flag held by Yes But No</p>
+                        <button class="exp-button" id="ybn">See more ></button>
+                    </div>
+                </div>
+                <div class="exp-card" filter="comps">
+                    <img src="./images/experiences/comps/wth.png" alt="WTH" class="exp-image">
+                    <div class="exp-content">
+                        <h2 class="project-title">WhatTheHack</h2>
+                        <p class="project-desc">A 2-day hackathon to make solutions to meaningful real-world problems held by SUTD</p>
+                        <button class="exp-button" id="wth">See more ></button>
+                    </div>
+                </div>
+                <div class="exp-card" filter="comps">
+                    <img src="./images/experiences/comps/big_d.jpg" alt="big-D-camp" class="exp-image">
+                    <div class="exp-content">
+                        <h2 class="project-title">SUTD-SST Big D Camp</h2>
+                        <p class="project-desc">A 3-day camp and competition held by SUTD in collaboration with SST</p>
+                        <button class="exp-button" id="big-d">See more ></button>
+                    </div>
+                </div>
+                <div class="exp-card" filter="comps">
+                    <img src="./images/experiences/comps/nsc.png" alt="NSC" class="exp-image">
+                    <div class="exp-content">
+                        <h2 class="project-title">National Software Competition</h2>
+                        <p class="project-desc">A national level software development competition by Singapore Polytechnic</p>
+                        <button class="exp-button" id="nsc">See more ></button>
+                    </div>
+                </div>
+                <div class="exp-card" filter="comps">
+                        <img src="./images/experiences/comps/sstctf.png" alt="SST-ctf" class="exp-image">
+                        <div class="exp-content">
+                            <h2 class="project-title">SST CTF </h2>
+                            <p class="project-desc">A cybersecurity related capture-the-flag held by students in SST</p>
+                            <button class="exp-button" id="sst-ctf">See more ></button>
+                        </div>
+                </div>
+
+                <div class="exp-card" filter="ole">
+                    <img src="./images/experiences/ole/bbs.jpg" alt="BBS" class="exp-image">
+                    <div class="exp-content">
+                        <h2 class="project-title">2024 S3 IDP IEP Jakarta</h2>
+                        <p class="project-desc">BBS x SST Exchange Program for IDP students</p>
+                        <button class="exp-button" id="bbs">See more ></button>
+                    </div>
+                </div>
+                <div class="exp-card" filter="ole">
+                    <img src="./images/experiences/ole/sf.jpg" alt="projectSF" class="exp-image">
+                    <div class="exp-content">
+                        <h2 class="project-title">#Project SF 2025</h2>
+                        <p class="project-desc">Selected students from Project Serve in SST Inc.</p>
+                        <button class="exp-button" id="sf">See more ></button>
+                    </div>
+                </div>
+                <!--
+                <div class="exp-card">
+                    <img src="./images/experiences/ole/shanghai.jpg" alt="shanghai" class="exp-image">
+                    <div class="exp-content">
+                        <h2 class="project-title">2025 MTL OLE Trip</h2>
+                        <p class="project-desc">Overseas Learning Experience to Shanghai, China</p>
+                        <button class="exp-button">See more ></button>
+                    </div>
+                </div>
+                -->
+
+                <p id="no-exp-msg">Whoops! Nothing to see here.</p>
+            </div>
+            <button id="view-more-btn" class="view-btn">View more <span id="caret-down">&#x2304;</span></button>
+            <button id="view-less-btn" class="view-btn">View less <span id="caret-up">&#x2303;</span></button>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="projects-div">
+            <h1 class="header">Projects</h1>
+            <div class="projects-container">
+                <div class="projects-card">
+                    <img src="./images/projects/raydar.jpg" alt="raydar-image" class="project-image">
+                    <h2 class="project-title">RAYdar</h2>
+                    <p class="project-desc">Chrome extension for WhatTheHack 2024</p>
+                    <a href="https://github.com/Vann-Man/RAYdar" target="_blank" class="project-button">View in GitHub ></a>
+                </div>
+                <div class="projects-card">
+                    <img src="./images/projects/python.png" alt="virtualbooth-image" class="project-image">
+                    <h2 class="project-title">SST Virtual Photobooth</h2>
+                    <p class="project-desc">Secondary 4 Computing+ coursework</p>
+                    <a href="https://github.com/Vann-Man/RAYdar" target="_blank" class="project-button">View in GitHub ></a>
+                </div>
+                <div class="projects-card">
+                    <img src="./images/projects/sg60_portal.png" alt="sg60portal-image" class="project-image">
+                    <h2 class="project-title">SG60 Portal</h2>
+                    <p class="project-desc">The winning app for National Software Competition 2025</p>
+                    <a href="https://github.com/Vann-Man/SP_NSComp" target="_blank" class="project-button">View in GitHub ></a>
+                </div>
+                <div class="projects-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="project-image" style="fill: var(--white);"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg>
+                    <h2 class="project-title" style="text-align: center;">Check out my GitHub for more projects!</h2>
+                    <a href="https://github.com/Vann-Man" target="_blank" class="project-button" style="margin: auto;">View in GitHub ></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <div class="projects-div">
+            <h1 class="header">Achievements</h1>
+            <div class="projects-container" style="display: flex; justify-content: center;">
+                <div class="ach-card">
+                    <h2 class="ach-title">2025</h2>
+                    <p class="ach-desc">SUTD-SST Big D Camp:</p>
+                    <p class="ach-place"><span>3rd</span> Prize - Spark Builder</p>
+
+                    <p class="ach-desc">Perse Coding Team Challenge:</p>
+                    <p class="ach-place">Round 1 - <span>Distinction</span><br>Round 2 Final - <span>Distinction</span></p>
+
+                    <p class="ach-desc">National Software Competition:</p>
+                    <p class="ach-place"><span>1st</span> Place - SG60 Portal</p>
+                    
+                    <p class="ach-desc">SST CTF:</p>
+                    <p class="ach-place"><span>1st</span> Place - Competitive Category</p>
+                </div>
+                <div class="ach-card">
+                    <h2 class="ach-title">2024</h2>
+                    <p class="ach-desc">Perse Coding Team Challenge</p>
+                    <p class="ach-place">Round 1 - <span>Merit</span></p>
+                </div>
+                <div class="ach-card">
+                    <h2 class="ach-title">2023</h2>
+                    <p class="ach-desc">Perse Coding Team Challenge</p>
+                    <p class="ach-place">Round 1 - <span>Merit</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="see-more-background">
+        <div class="see-more-container" id="see-more-inc">
+            <img src="./images/experiences/leaderships/inc.png" alt="SST-Inc." class="exp-image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="close-btn"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+            <div class="see-more-content">
+                <h2 class="project-title">SST Inc.</h2>
+                <p><span style="color: var(--light-purple);">Overview:</span><br>SST Inc. is the ICT talent development unit in SST. SST Inc. is an incubator that aims to nuture student employees in running technology start-ups to serve the community and better our world.
+                </p>
+                <p><span style="color: var(--light-purple);">Employee 2022-2025:</span><br>In my first year of SST Inc., we had the choice to pick within Swift storyboard for iOS dev, Java for Android dev, and React Js for web dev. I selected the Swift storyboard course to learn how to develop applications for iOS since I had an Apple phone.<br>In my second year, I could take both the React Js course and the Java course. Through the React Js course, I was introduced into languages such as HTML, CSS, and Javascript, which is powering the very website you are on.
+                </p>
+            </div>
+        </div>
+        <div class="see-more-container" id="see-more-snw-rep">
+            <img src="./images/experiences/leaderships/oee_recce.png" alt="SnW-rep" class="exp-image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="close-btn"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+
+            <div class="see-more-content">
+                <h2 class="project-title">House Committee</h2>
+            </div>
+        </div>
+
+        <div class="see-more-container" id="see-more-pctc">
+            <img src="./images/experiences/comps/perse.jpg" alt="PCTC" class="exp-image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="close-btn"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+
+            <div class="exp-content">
+                <h2 class="project-title">Perse Coding Challenge</h2>
+            </div>
+        </div>
+        <div class="see-more-container" id="see-more-ybn">
+            <img src="./images/experiences/comps/ybn.png" alt="YBN-CTF" class="exp-image">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="close-btn"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+
+            <div class="exp-content">
+                <h2 class="project-title">YBN CTF</h2>
+            </div>        
+        </div>
+        <div class="see-more-container" id="see-more-wth">  
+            <img src="./images/experiences/comps/wth.png" alt="WTH" class="exp-image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="close-btn"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+
+            <div class="exp-content">
+                <h2 class="project-title">WhatTheHack</h2>
+            </div>
+        </div>
+        <div class="see-more-container" id="see-more-big-d">
+            <img src="./images/experiences/comps/big_d.jpg" alt="big-D-camp" class="exp-image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="close-btn"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+
+            <div class="exp-content">
+                <h2 class="project-title">SUTD-SST Big D Camp</h2>
+            </div>
+        </div>
+        <div class="see-more-container" id="see-more-nsc">
+            <img src="./images/experiences/comps/nsc.png" alt="NSC" class="exp-image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="close-btn"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+
+            <div class="exp-content">
+                <h2 class="project-title">National Software Competition</h2>
+            </div>
+        </div>
+        <div class="see-more-container" id="see-more-sst-ctf">
+            <img sr c="./images/experiences/comps/sstctf.png" alt="SST-ctf" class="exp-image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="close-btn"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+
+            <div class="exp-content">
+                <h2 class="project-title">SST CTF </h2>
+            </div>
+        </div>
+
+        <div class="see-more-container" id="see-more-bbs">
+            <img src="./images/experiences/ole/bbs.jpg" alt="BBS" class="exp-image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="close-btn"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+
+            <div class="exp-content">
+                <h2 class="project-title">2024 S3 IDP IEP Jakarta</h2>
+            </div>
+        </div>
+        <div class="see-more-container" id="see-more-sf">
+            <img src="./images/experiences/ole/sf.jpg" alt="projectSF" class="exp-image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="close-btn"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+
+            <div class="exp-content">
+                <h2 class="project-title">#Project SF 2025</h2>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© Made by Vann Xyn :&#41;</p>
+        <p>Newer anims coming soon :D</p>
+        <p>Sorry if there is any bugs as it is still a work-in-progress</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
