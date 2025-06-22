@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.addEventListener('click', () => {
             seeMoreId = btn.id;
             seeMoreBackground.style.display = '';
-            const seeMoreContainer = document.getElementById('see-more-'+seeMoreId);
+            globalThis.seeMoreContainer = document.getElementById('see-more-'+seeMoreId);
             seeMoreContainer.style.display = 'block';
         });
     });
